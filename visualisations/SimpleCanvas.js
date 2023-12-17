@@ -137,9 +137,10 @@ function toBoolean(string) {
 }
 
 // Takes in array that contains an object with x and y and connect those points into one line
-function lineStrip(array, colour = 'white', corner = 'round') {
+function lineStrip(array, colour = 'white', width = 1, corner = 'round') {
     ctx.beginPath();
     ctx.strokeStyle = colour;
+    ctx.lineWidth = width;
     ctx.lineJoin = corner;
 
     ctx.moveTo(array[0].x, array[0].y);
