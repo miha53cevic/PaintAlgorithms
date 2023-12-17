@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Fill Visualisations</title>
+</head>
+
+<body>
+    <h1>Flood Fill</h1>
+    <div id="canvasArea"></div>
+    <div>
+        <select id="selectedAlgorithm">
+            <option value="dfs">DFS</option>
+            <option value="bfs">BFS</option>
+            <option value="spanFill">Span Fill</option>
+        </select>
+        <button id="resetBtn">Reset</button>
+        <label>Fill color</label>
+        <input id="fillColorPicker" type="color" value="#FF0000" />
+        <label>Right click color</label>
+        <input id="colorPicker" type="color" />
+    </div>
+    <script src="../SimpleCanvas.js" defer></script>
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
