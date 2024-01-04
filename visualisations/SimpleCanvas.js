@@ -52,6 +52,11 @@ function toRadian(x) {
     return (x * Math.PI) / 180;
 }
 
+// Convert Radian to Degrees
+function toDegrees(x) {
+    return x * (180 / Math.PI);
+}
+
 // Save current Transformation
 function push() {
     ctx.save();

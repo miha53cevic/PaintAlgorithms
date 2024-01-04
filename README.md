@@ -1,4 +1,5 @@
 # Paint Algorithms
-[Flood Fill](https://miha53cevic.github.io/PaintAlgorithms/visualisations/FloodFill/)
-[Bezier Curves](https://miha53cevic.github.io/PaintAlgorithms/visualisations/BezierCurves/)
-[Spline Curves](https://miha53cevic.github.io/PaintAlgorithms/visualisations/SplineCurves/)
+- [Flood Fill](https://miha53cevic.github.io/PaintAlgorithms/visualisations/FloodFill/)
+- [Bezier Curves](https://miha53cevic.github.io/PaintAlgorithms/visualisations/BezierCurves/)
+- [Spline Curves](https://miha53cevic.github.io/PaintAlgorithms/visualisations/SplineCurves/)
+- [Color Picker](https://miha53cevic.github.io/PaintAlgorithms/visualisations/ColorPicker/)
