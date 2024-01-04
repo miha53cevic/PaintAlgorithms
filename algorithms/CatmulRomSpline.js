@@ -15,7 +15,7 @@ function CatmulRomSpline(P, t) {
     const q2 = -3.0*ttt + 4.0*tt + t;
     const q3 = ttt - tt;
 
-    const Cx = 0.5 * (P[0].x*q0 + P[1].x*q1 + P[2].x*q2 + P[3].y*q3);
+    const Cx = 0.5 * (P[0].x*q0 + P[1].x*q1 + P[2].x*q2 + P[3].x*q3);
     const Cy = 0.5 * (P[0].y*q0 + P[1].y*q1 + P[2].y*q2 + P[3].y*q3);
     return new Point(Cx, Cy);
 }
