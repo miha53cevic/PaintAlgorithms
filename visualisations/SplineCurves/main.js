@@ -37,6 +37,18 @@ function Init() {
         new Point(600, 200),
     ];
 
+    // Stavi rubne kontrol pointe na najbliže pointe koji zapravo predstavljaju liniju (tipa tako ima Paint.NET)
+    // Komentiraj ovaj dio da ih vratiš
+    const lineControlPoints = [
+        controlPoints[1],
+        controlPoints[1],
+        controlPoints[2],
+        controlPoints[3],
+        controlPoints[4],
+        controlPoints[4],
+    ];
+    controlPoints = lineControlPoints;
+
     ctx.canvas.addEventListener('mousedown', (ev) => {
         if (ev.which !== 1) return;
 
